@@ -14,5 +14,5 @@ process.stdin.on('data', (data) => {
   if (data.toString().trim() === 'exit') {
     console.log('Text successfully recorded!');
     process.exit();
-}
+  }
 });
